@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { t, LANGS } from "./i18n.js";
 
-const API = "http://localhost:5000";
+const API = "cropsense-backend-production.up.railway.app";
 
 const SEVERITY_STYLE = {
   none:     { bg: "#f0fdf4", border: "#bbf7d0", color: "#15803d", dot: "#22c55e" },
